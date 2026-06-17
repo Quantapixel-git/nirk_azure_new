@@ -20,10 +20,7 @@ npm-debug.log
 yarn-error.log
 .DS_Store
 .idea/
-/public/*
 updates/
-composer.lock
-*.lock
 resources/lang/en.json
 updates.zip
 ecommerce.zip
