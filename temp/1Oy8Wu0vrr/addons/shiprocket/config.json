@@ -1,0 +1,45 @@
+{
+   "name":"Shiprocket",
+   "unique_identifier":"shiprocket",
+   "version":"1.3",
+   "minimum_item_version":"10.3.0",
+   "addon_banner":"shiprocket.png",
+   "directory":[
+      {
+        "name":[
+            "resources/views/backend/shipping_system/partials/shiprocket"
+        ]
+      }
+   ],
+   "sql_file":"",
+   "files":[
+      {
+          "root_directory":"addons/shiprocket/controllers/ShiprocketController.php",
+          "update_directory":"app/Http/Controllers/ShiprocketController.php"
+      },
+      {
+          "root_directory":"addons/shiprocket/models/Shiprocket.php",
+          "update_directory":"app/Models/Shiprocket.php"
+      },
+      {
+          "root_directory":"addons/shiprocket/models/ShiprocketCredential.php",
+          "update_directory":"app/Models/ShiprocketCredential.php"
+      },
+      {
+          "root_directory":"addons/shiprocket/requests/ShiprocketCredentialRequest.php",
+          "update_directory":"app/Http/Requests/ShiprocketCredentialRequest.php"
+      },
+      {
+          "root_directory":"addons/shiprocket/services/ShiprocketService.php",
+          "update_directory":"app/Services/ShiprocketService.php"
+      },
+      {
+         "root_directory"    : "addons/shiprocket/assets/shiprocket.png",
+         "update_directory"  : "public/shiprocket.png"
+      },
+      {
+         "root_directory":"addons/shiprocket/views/partials/shiprocket.blade.php",
+         "update_directory":"resources/views/backend/shipping_system/partials/shiprocket/shiprocket.blade.php"
+      }
+  ]
+}
